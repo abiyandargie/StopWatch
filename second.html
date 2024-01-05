@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script language = "javascript" type="text/javascript">
+        function mouseOver(){
+            document.images["img1"].src="green.png";
+        }
+        function mouseOut(){
+             
+       document.images["img1"].src = "best.jpg";
+        }
+        function load(){
+            document.images["img1"].src =  "red.jpg";
+        }
+//         var x,y;
+//   function division(x,y){
+//     try{
+//     var sum=x/y;
+//     alert(sum);
+    
+// }
+// catch(e){
+//     alert("error"+e);
+// }
+// finally{
+//     alert("finally block excuted");
+// }
+// }
+// </script>
+// </head>
+// <body onload="load()">
+//     <script>
+//         a=prompt("enter the first number","enter please");
+//         b=prompt("enter the second number","enter please");
+  function WriteCoockies(){
+    if(document.myform.customer.value == "")
+    {
+        alert("enter some value");
+        return;
+    }
+    var coockie = "name" + coockiesvalue;
+    document.write("setting coockies :" + "name ="+coockie);
+  }
+    </script>
+
+</head>
+<form name="mayform" action="">
+    <!-- <label for="customer">first name</label> -->
+   firstName <input type="text" name="customer">
+
+    <input type="button" value="set coockies" onclick="WriteCoockies();"/>
+    
+</form>
+    <input type="button" value="clickTocall" onclick="division(a,b)"/>
+    <style>
+        img{
+            size: 300px;
+            width: 200px;
+            border: 2px;
+        }
+    </style>
+    <img name = "img1" onmouseover = "mouseOver()" onmouseout = "mouseOut()" >
+</body>
+</html>

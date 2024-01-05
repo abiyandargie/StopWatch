@@ -1,0 +1,20 @@
+ 
+ 
+ body{
+     color: blue;
+     font-family: 'Times New Roman', Times, serif;
+     font-size: large;
+     forced-color-adjust:var(600px);
+ }
+ video{
+     border: darksalmon solid;
+     border-radius: 10%;
+     box-sizing: inherit;
+     counter-increment: initial;
+     border-image-source: -webkit-radial-gradient(email);
+     padding: 2px; 
+ }
+ 
+ 
+
+ 
